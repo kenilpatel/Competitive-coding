@@ -14,7 +14,6 @@ class Solution(object):
         """
         count_dict = defaultdict(self.get)
         record = []
-        s = "home.depot"
         for i in range(0, len(username)):
             record.append([username[i], timestamp[i], website[i]])
         record = sorted(record, key=lambda x: x[1])
